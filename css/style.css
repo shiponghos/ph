@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* first header */
+.header {
+    background-image: url(../images/banner/banner2.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+
+}
+
+.first-banner {
+    padding: 180px 200px;
+    color: rgb(10, 10, 10);
+    text-align: right;
+}
+
+.my-titel {
+    font-size: 60px;
+}
+
+.my-description {
+    font-size: 16px;
+    margin-top: 20px;
+}
+.my-button-primary {
+    padding: 8px 20px;
+    border-radius: 5px;
+    border: 0;
+    margin-top: 20px;
+    font-size: 15px;
+    color: #f7f7f3;
+    background-color: #fac004;
+}
+
+
+/* main section */
+
+.my-first-section {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    padding: 0px 200px;
+
+}
+
+.my-first-section-titel {
+    color: black;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.my-first-section-description {
+    color: gray;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.my-first-section-icon-text {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 6px 0px;
+}
+
+.my-first-section-icon {
+    color: rgb(22, 194, 22);
+}
+
+/* my second section */
+.my-second-section {
+    margin: 100px;
+    padding: 0px 100px;
+}
+
+.my-second-section-titel {
+    text-align: center;
+    color: black;
+    font-size: 25px;
+}
+
+/* plans-item */
+
+.my-plans-item {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.my-plans-item-team {
+    align-items: center;
+    text-align: center;
+}
+
+.my-plans-item-description {
+    color: gray;
+}
+
+/* three-section */
+
+.my-three-section {
+    margin: 50px 200px;
+}
+
+.my-three-section-image {
+    background-image: url(../images/watch.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 250px;
+}
+
+.my-three-section-image-two {
+    background-image: url(../images/gradient1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 250px;
+}
+
+.my-three-section-background-text {
+    padding: 50px 50px;
+}
+
+.my-three-section-titel {
+    color: white;
+    font-size: 30px;
+}
+
+
+/* my footer */
+footer {
+    background-color: #151414;
+    padding: 120px 200px;
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.my-footer-titel {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.my-first-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.my-footer-description {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.footer-sub-description {
+    padding: 5px 0px;
+    font-size: 14px;
+}
+
+.footer-icon {
+    display: flex;
+    padding: 20px 0px;
+    gap: 15px;
+}
+
+.footer-icon li {
+    list-style: none;
+}
+
+.footer-sub-titel {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+
+.footer-form input[type="email"] {
+    padding: 10px 10px;
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: #151414;
+    color: #ffffff;
+
+
+}
+
+.button-primary-footer {
+    padding: 8px 20px;
+    border-radius: 5px;
+    border: 0;
+    margin-top: 20px;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #005FAC;
+
+}
+.first-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+.video{
+    margin: 0px auto;
+    text-align: center;
+}
+.video h2{
+    padding: 30px 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
